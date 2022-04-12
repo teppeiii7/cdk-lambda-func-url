@@ -1,3 +1,10 @@
+# cdk-lambda-func-url
+
+Deploy [Lambda function Urls](https://aws.amazon.com/jp/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/) by AWS CDK.
+
+URL Routing Use [@vendia/serverless-express](https://github.com/vendia/serverless-express).
+
+
 ## Requirements
 
 ```
