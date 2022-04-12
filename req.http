@@ -1,0 +1,4 @@
+### /hoge
+GET https://qgbyefeuxgfbpwtsar57algliq0dbzew.lambda-url.ap-northeast-1.on.aws/hoge
+### /fuga
+GET https://qgbyefeuxgfbpwtsar57algliq0dbzew.lambda-url.ap-northeast-1.on.aws/fuga

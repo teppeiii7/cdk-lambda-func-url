@@ -1,8 +1,10 @@
-# Welcome to your CDK TypeScript project
+## Requirements
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+```
+$ cdk --version
+2.20.0
+$ cdk bootstrap aws://{account_no}/{region} --profile {profileName}
+```
 
 ## Useful commands
 
@@ -12,3 +14,15 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+
+## API Request
+
+WebStorm HTTP Client🚀
+
+```
+$ vim req.http
+### /hoge
+GET https://{funcUrl}/hoge
+### /fuga
+GET https://{funcUrl}/fuga
+```
