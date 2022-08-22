@@ -1,9 +1,9 @@
 openapi: 3.0.0
 info:
-  version: 1.0.0
-  title: Swagger UI Amplify Hosting Sample
+  version: 0.1.0
+  title: Deploy Swagger to Amplify Hosting
   description: >-
-    Swagger UI Amplify Hosting Sample
+    Deploy Swagger to Amplify Hosting
 servers:
   - url: 'http://petstore.swagger.io/api'
 paths:

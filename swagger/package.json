@@ -11,7 +11,8 @@
   },
   "scripts": {
     "start": "redoc-cli serve swagger.yaml -t template.hbs --options.hideDownloadButton --options.pathInMiddlePanel=true --watch -p 9011",
-    "build": "redoc-cli bundle swagger.yaml -t template.hbs --output index.html --options.hideDownloadButton --options.pathInMiddlePanel=true"
+    "build": "redoc-cli bundle swagger.yaml -t template.hbs --output index.html --options.hideDownloadButton --options.pathInMiddlePanel=true",
+    "print": "redoc-cli bundle swagger.yaml -t template.hbs --output index.html --options.hideDownloadButton --options.pathInMiddlePanel=true --options.expandResponses=all --options.jsonSampleExpandLevel=all --options.hideSingleRequestSampleTab=all && ts-node print.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/teppeiii7/cdk-lambda-func-url/tree/main/swagger",
   "devDependencies": {
+    "@types/puppeteer": "^5.4.6",
+    "puppeteer": "^16.2.0",
     "react-is": "^18.2.0",
     "redoc-cli": "^0.13.19",
     "ts-node": "^10.9.1",
