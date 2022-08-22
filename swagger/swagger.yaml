@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Swagger UI Amplify Hosting Sample
+  description: >-
+    Swagger UI Amplify Hosting Sample
+servers:
+  - url: 'http://petstore.swagger.io/api'
+paths:
+  /hoge:
+    get:
+      description: >
+        hogehoge
+      responses:
+        '200':
+          description: hoge response
+          content:
+            application/json:
+              schema:
+                type: "object"
+                description: "hogeのレスポンス"
+                properties:
+                  id:
+                    type: "integer"
+                    format: "int64"
+                  name:
+                    type: "string"
+                    example: "test"

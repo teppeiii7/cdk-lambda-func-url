@@ -1,0 +1,20 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd swagger
+        - npm install -g npm@7
+        - npm ci
+    build:
+      commands:
+        - npm run build
+    postBuild:
+      commands: []
+  artifacts:
+    files:
+      - index.html
+      - assets/**/*
+  cache:
+    paths:
+      - node_modules/**/*

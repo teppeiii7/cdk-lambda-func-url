@@ -1,0 +1,7 @@
+# Swagger
+
+## Install
+
+```
+$ npm install
+```

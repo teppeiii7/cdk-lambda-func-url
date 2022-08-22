@@ -1,0 +1,25 @@
+{
+  "name": "swagger-test",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.10.x",
+    "npm": ">=7.24.x"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "redoc-cli serve swagger.yaml -t template.hbs --options.hideDownloadButton --options.pathInMiddlePanel=true --watch -p 9011",
+    "build": "redoc-cli bundle swagger.yaml -t template.hbs --output index.html --options.hideDownloadButton --options.pathInMiddlePanel=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teppeiii7/cdk-lambda-func-url.git"
+  },
+  "homepage": "https://github.com/teppeiii7/cdk-lambda-func-url/tree/main/swagger",
+  "devDependencies": {
+    "typescript": "~4.7.4",
+    "redoc-cli": "^0.13.19"
+  }
+}
