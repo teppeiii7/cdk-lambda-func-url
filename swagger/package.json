@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/teppeiii7/cdk-lambda-func-url/tree/main/swagger",
   "devDependencies": {
-    "typescript": "~4.7.4",
-    "redoc-cli": "^0.13.19"
+    "react-is": "^18.2.0",
+    "redoc-cli": "^0.13.19",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.7.4"
   }
 }
